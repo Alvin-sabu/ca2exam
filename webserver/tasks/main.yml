@@ -28,7 +28,7 @@
 
 - name: Deploy web server index page
   template:
-    src: index.html.j2
+    src: index.html
     dest: "{{ web_root }}/index.html"
   notify:
     - Restart web server
