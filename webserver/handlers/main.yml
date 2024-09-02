@@ -1,0 +1,7 @@
+# handlers/main.yml
+
+- name: Restart web server
+  service:
+    name: "{{ service_name }}"
+    state: restarted
+

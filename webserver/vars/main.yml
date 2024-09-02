@@ -1,0 +1,12 @@
+# vars/main.yml
+package_name: httpd
+service_name: httpd
+web_root: /var/www/html
+users:
+  - name: "user1"
+    uid: "1111"
+  - name: "user2"
+    uid: "1212"
+  - name: "user3"
+    uid: "1313"
+
